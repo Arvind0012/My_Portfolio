@@ -1,0 +1,66 @@
+.main-body{
+    /* color: rgb(249, 244, 244); */
+    transition: 300ms;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.main-body h1{
+    font-size: 5rem;
+    color: rgb(44, 106, 176);;
+    margin-top: 7rem;
+}
+.main-body h2{
+    margin-top: 0.8rem;
+    font-size: 3rem;
+}
+
+.main-body h3{
+    margin-top: 0.8rem;
+    font-size: 2.4rem;
+}
+
+.resume{
+    display: flex;
+    margin-left: 31rem;
+}
+
+.resume-btn{
+    color: white;
+    margin-top: 1rem;
+    width: 8rem;
+    height: 3rem;
+    border-radius: 0.7rem;
+    background-color: #f81c03;
+    font-size: 1.32rem;
+    box-shadow: 8px 7px 8px 3px #e02424;
+    border: 2px solid white;
+}
+
+.resume-btn:hover{
+    cursor: pointer;
+    background-color: #f36555;
+    text-decoration: underline;
+}
+
+.btn-logo{
+    /* color: white; */
+    font-size: 3rem;
+    margin-right: 9px;
+}
+
+.h-line{
+    width: 60rem;
+    margin-left: 18rem;
+    margin-top: 3rem;
+    opacity: 0.45;
+    height: 4px;
+    box-shadow: 3px 3px 3px rgb(0, 234, 255);
+}
+
+.start-scroll{
+    color: rgba(60, 134, 237, 0.982);
+    margin-top: 3rem;
+    text-align: center;
+    font-size: 1.7rem;
+    font-weight: 500;
+}
