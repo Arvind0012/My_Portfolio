@@ -1,3 +1,4 @@
 .p-card:hover{
-    box-shadow: 7px 15px 5px rgb(131, 177, 230);
+    /* box-shadow: 7px 15px 5px rgb(131, 177, 230); */
+    box-shadow: 4px 5px 3px rgb(157, 190, 227);
 }

@@ -4,7 +4,7 @@ import React from "react";
 const MyExperience = (props) =>{
     return(
         <>
-            <div className="card p-card" id='myExperience'>
+            <div className="card p-card" id='myExperience' style={{backgroundColor:'transparent', border:'none'}}>
                 <div className="card-body text-dark">
                     <h2 className="card-title text-center">{props.title}</h2>
                     <h4 style={{color:'grey'}}>{props.des} </h4>

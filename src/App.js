@@ -13,54 +13,63 @@ function App() {
 
       <Navbar />
       <Mainbody />
-      <AboutMe />
+      <section id="about">
+        <AboutMe />
+      </section>
 
       {/* Skills Card */}
+      <section id='skills'>
+        <div className="">
+          <h1 className="text-center mt-5" style={{color:"#7f138c"}}>My Skills <div className="unline" style={{display:'flex',border:"1px solid white", width:'14rem', margin:'3px auto', boxShadow:'5px 5px 5px green', marginBottom:'1.8rem'}}></div></h1>
 
-      <h1 className="text-center mt-5" style={{color:"#7f138c"}}>My Skills <div className="unline" style={{display:'flex',border:"1px solid white", width:'14rem', margin:'3px auto', boxShadow:'5px 5px 5px green', marginBottom:'1.8rem'}}></div></h1>
-
-      <div className="container-fluid d-flex justify-content-center">
-        <div className="row">
-          <div className="col-md-4">
-            <SkillsCard title="Language" lan1="C" lan2="Java" lan3="Python" lan4="C++"/>
-          </div>
-          <div className="col-md-4">
-            <SkillsCard title="Frontend" lan1="HTML" lan2="CSS" lan3="JavaScript" lan4="ReactJs"/>
-          </div>
-          <div className="col-md-4">
-            <SkillsCard title="Other Skills" lan1="PHP" lan2="MySQL" lan3="MongoDB" lan4="Git"/>
+          <div className="container-fluid d-flex justify-content-center">
+            <div className="row">
+              <div className="col-md-4">
+                <SkillsCard title="Language" lan1="C" lan2="Java" lan3="Python" lan4="C++"/>
+              </div>
+              <div className="col-md-4">
+                <SkillsCard title="Frontend" lan1="HTML" lan2="CSS" lan3="JavaScript" lan4="ReactJs"/>
+              </div>
+              <div className="col-md-4">
+                <SkillsCard title="Other Skills" lan1="PHP" lan2="MySQL" lan3="MongoDB" lan4="Git"/>
+              </div>
+            </div>
           </div>
         </div>
-      </div>
+        
+      </section>
 
       {/* Projects */}
 
-      <h1 className='text-center mt-5'style={{color: "#ee9b2b"}}>My Projects <div className="unline" style={{border:"1px solid white", width:'17rem', margin:'0 auto', boxShadow:'5px 5px 5px green'}}></div></h1>
+      <section id="projects">
+        <h1 className='text-center mt-5'style={{color: "#ee9b2b"}}>My Projects <div className="unline" style={{border:"1px solid white", width:'17rem', margin:'0 auto', boxShadow:'5px 5px 5px green'}}></div></h1>
 
-      <div className="container-fluid mt-4">
-        <div className="row">
-          <div className="col-md-6">
-            <a href="https://github.com/Arvind0012/Basic_Banking_System" target='_blank' style={{textDecoration:'none'}}>
-             <Project title="Basic Banking System" des="This project is made by HTML, CSS, Bootstrap as Frontend and Django as Backend. I have Provided the functionality to make the Transaction and can see the Transaction History."/>
-            </a>
-          </div>
-          <div className="col-md-6" >
-            <a href="https://github.com/Arvind0012/Covid_Tracker/tree/master" target='_blank' style={{textDecoration:'none'}}>
-              <Project title="Covid Tracker" des=" This project is made by HTML, CSS and JavaScript and openWeather API. In this project we can see the number of people that are affected by Covid-19 and people Recovered by Covid-19."/>
-            </a>
-          </div>
-          <div className="col-md-6 mt-4 ">
-            <a href="https://github.com/Arvind0012/Analog_clock" target='_blank' style={{textDecoration:'none'}}>
-              <Project title="Analog Clock" des="This Project is made by the help of HTML, CSS and JavaScript. In this, real time will show."/>
-            </a>
-          </div>
-          <div className="col-md-6 mt-4 ">
-            <a href="https://github.com/Arvind0012/Snake_Game" target='_blank' style={{textDecoration:'none'}}>
-              <Project title="Snake Game" des=" This Project is made by the use of HTML, CSS, JavaScript. In this a user can play and can see their score."/>
-            </a>
+        <div className="container-fluid mt-4">
+          <div className="row">
+            <div className="col-md-6">
+              <a href="https://github.com/Arvind0012/Basic_Banking_System" target='_blank' style={{textDecoration:'none'}}>
+              <Project title="Basic Banking System" des="This project is made by HTML, CSS, Bootstrap as Frontend and Django as Backend. I have Provided the functionality to make the Transaction and can see the Transaction History."/>
+              </a>
+            </div>
+            <div className="col-md-6" >
+              <a href="https://github.com/Arvind0012/Covid_Tracker/tree/master" target='_blank' style={{textDecoration:'none'}}>
+                <Project title="Covid Tracker" des=" This project is made by HTML, CSS and JavaScript and openWeather API. In this project we can see the number of people that are affected by Covid-19 and people Recovered by Covid-19."/>
+              </a>
+            </div>
+            <div className="col-md-6 mt-4 ">
+              <a href="https://github.com/Arvind0012/Analog_clock" target='_blank' style={{textDecoration:'none'}}>
+                <Project title="Analog Clock" des="This Project is made by the help of HTML, CSS and JavaScript. In this, real time will show."/>
+              </a>
+            </div>
+            <div className="col-md-6 mt-4 ">
+              <a href="https://github.com/Arvind0012/Snake_Game" target='_blank' style={{textDecoration:'none'}}>
+                <Project title="Snake Game" des=" This Project is made by the use of HTML, CSS, JavaScript. In this a user can play and can see their score."/>
+              </a>
+            </div>
           </div>
         </div>
-      </div>
+      </section>
+
 
       {/* MY Experience */}
 

@@ -13,7 +13,8 @@ header{
   justify-content: space-between;
   padding-left: 5px;
   font-family: 'Roboto Slab', serif;
-  background-color: #1e2525cc;
+  /* background-color: #1e2525cc; */
+  background-color: #565959cc;
   height: 4rem;
 }
 
@@ -31,7 +32,8 @@ nav{
 }
 
 h2 a:hover{
-  color: #f81c03;
+  /* color: rgb(148, 183, 110); */
+  color: aquamarine;
   border-radius: 5px;
   font-size: 1.82rem;
 }
@@ -52,6 +54,6 @@ h2 a:hover{
 
 .navbar ul a:hover{
   cursor: pointer;
-  color: #f81c03;
-  /* color: rgb(42, 99, 213); */
+  color: aquamarine;
+  transition: 10ms;
 }

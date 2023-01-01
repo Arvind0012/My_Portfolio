@@ -1,13 +1,17 @@
 import React from "react";
-import './about-me.css'
+import './about-me.css';
+
+import profile from './out.jpg'
 
 const AboutMe = () =>{
     return(
         <>
-            <div className="intro" id="about">
+            <div className="intro">
                 <div className="about-me">
                     <div className="imag">
-                    <a href="https://github.com/Arvind0012" target='_blank'><img className="profile-img" src="./out.jpg" alt="Profile-photo"/></a>
+                    <a href="https://github.com/Arvind0012" target='_blank'>
+                        <img className="profile-img" src={profile} alt="Profile-photo"/>
+                    </a>
                     </div>
                     <h2>About Me </h2>
                     <p>I'm currently a final year student pursuing my B.Tech in the field of Computer Science and Engineering from Silicon Institute of Technology, Sambalpur.</p><br />
