@@ -31,7 +31,7 @@ function App() {
                 <SkillsCard title="Frontend" lan1="HTML" lan2="CSS" lan3="JavaScript" lan4="ReactJs"/>
               </div>
               <div className="col-md-4">
-                <SkillsCard title="Other Skills" lan1="PHP" lan2="MySQL" lan3="MongoDB" lan4="Git"/>
+                <SkillsCard title="Other Skills" lan1=".NET" lan2="MySQL" lan3="Azure" lan4="Git"/>
               </div>
             </div>
           </div>
@@ -46,9 +46,15 @@ function App() {
 
         <div className="container-fluid mt-4">
           <div className="row">
+          <div className="col-md-6 mt-4 ">
+              <a href="https://github.com/Arvind0012/Analog_clock" target='_blank' style={{textDecoration:'none'}}>
+                <Project title="Complaint Management System" des="The Complaint Management System Portal allows users to register and submit complaints. It features a Google Dialogflow-powered chatbot for user assistance and an admin panel for department admins to allocate and address complaints, streamlining issue resolution.."/>
+              </a>
+            </div>
+
             <div className="col-md-6">
               <a href="https://github.com/Arvind0012/Basic_Banking_System" target='_blank' style={{textDecoration:'none'}}>
-              <Project title="Basic Banking System" des="This project is made by HTML, CSS, Bootstrap as Frontend and Django as Backend. I have Provided the functionality to make the Transaction and can see the Transaction History."/>
+              <Project title="Basic Banking System" des="The Basic Banking System project uses HTML, CSS, Bootstrap for the frontend, and Django for the backend. It allows users to conduct transactions and view their transaction history, streamlining basic banking operations for a seamless experience."/>
               </a>
             </div>
             <div className="col-md-6" >
@@ -56,11 +62,7 @@ function App() {
                 <Project title="Covid Tracker" des=" This project is made by HTML, CSS and JavaScript and openWeather API. In this project we can see the number of people that are affected by Covid-19 and people Recovered by Covid-19."/>
               </a>
             </div>
-            <div className="col-md-6 mt-4 ">
-              <a href="https://github.com/Arvind0012/Analog_clock" target='_blank' style={{textDecoration:'none'}}>
-                <Project title="Analog Clock" des="This Project is made by the help of HTML, CSS and JavaScript. In this, real time will show."/>
-              </a>
-            </div>
+            
             <div className="col-md-6 mt-4 ">
               <a href="https://github.com/Arvind0012/Snake_Game" target='_blank' style={{textDecoration:'none'}}>
                 <Project title="Snake Game" des=" This Project is made by the use of HTML, CSS, JavaScript. In this a user can play and can see their score."/>
